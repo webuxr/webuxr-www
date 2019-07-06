@@ -1,0 +1,22 @@
+enabled: true
+from: noreply@webuxr.com
+from_name: 'WebUXr Website'
+to: webuxr@gmail.com
+to_name: 'Smith Admin'
+queue:
+  enabled: false
+  flush_frequency: '1 0 * * *'
+  flush_msg_limit: 10
+  flush_time_limit: 100
+mailer:
+  engine: sendmail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: ssl
+    user: rsmith
+    password: petrol-midway-extra
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false

@@ -1,0 +1,19 @@
+enabled: true
+built_in_css: true
+inline_css: false
+refresh_prevention: true
+client_side_validation: true
+inline_errors: true
+files:
+  multiple: false
+  limit: 10
+  destination: self@
+  avoid_overwriting: false
+  random_name: false
+  filesize: 0
+  accept:
+    - 'image/*'
+recaptcha:
+  version: '3'
+  site_key: 6LeDdpsUAAAAACzdF17gvt4bwpUCoazwzjLbKX3C
+  secret_key: 6LeDdpsUAAAAAPUwaChcERe7doqxaZdXDiYQ-o4X

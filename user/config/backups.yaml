@@ -1,0 +1,20 @@
+purge:
+  trigger: time
+  max_backups_count: 25
+  max_backups_space: 5
+  max_backups_time: 60
+profiles:
+  -
+    name: default-backup
+    root: /backup
+    exclude_paths: "/backup\r\n/cache\r\n/images\r\n/logs\r\n/tmp"
+    exclude_files: ".DS_Store\r\n.git\r\n.svn\r\n.hg\r\n.idea\r\n.vscode\r\nnode_modules\r\nThumbs.db\r\n.gitkeep"
+    schedule: false
+    schedule_at: '0 3 * * *'
+  -
+    name: webuxr-www
+    root: /backup
+    exclude_paths: "/backup\r\n/cache\r\n/images\r\n/logs\r\n/tmp"
+    exclude_files: ".DS_Store\r\n.git\r\n.gitkeep\r\n.svn\r\n.hg\r\n.idea\r\n.vscode\r\nnode_modules\r\nThumbs.db"
+    schedule: false
+    schedule_at: '* 3 * * *'
