@@ -135,6 +135,7 @@ images:
   cache_perms: '0775'
   debug: false
   auto_fix_orientation: false
+  seofriendly: false
 media:
   enable_media_timestamp: true
   auto_metadata_exif: false
@@ -145,8 +146,8 @@ session:
   timeout: 1800
   name: grav-webuxr-www
   uniqueness: salt
-  secure: false
-  httponly: true
+  secure: true
+  httponly: false
   split: true
 gpm:
   releases: stable

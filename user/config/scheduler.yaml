@@ -1,6 +1,5 @@
 status:
   cache-purge: enabled
   cache-clear: enabled
-  default-site-backup: enabled
-  backup2-do-volume: disabled
-  backup2-sym-link-do-vol: enabled
+  default-backup: enabled
+  webuxr-www: disabled
