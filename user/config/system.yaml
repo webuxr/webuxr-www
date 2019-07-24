@@ -83,8 +83,8 @@ cache:
     method: file
   driver: auto
   prefix: g
-  purge_at: '0 4 * * *'
-  clear_at: '0 3 * * *'
+  purge_at: '0 3 * * *'
+  clear_at: '0 4 * * *'
   clear_job_type: standard
   clear_images_by_default: true
   cli_compatibility: true
@@ -130,12 +130,12 @@ debugger:
     close_connection: true
   twig: true
 images:
-  default_image_quality: 60
-  cache_all: false
+  default_image_quality: 80
+  cache_all: true
   cache_perms: '0775'
   debug: false
   auto_fix_orientation: false
-  seofriendly: false
+  seofriendly: true
 media:
   enable_media_timestamp: true
   auto_metadata_exif: false
