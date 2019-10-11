@@ -1,6 +1,6 @@
 purge:
   trigger: number
-  max_backups_count: 3
+  max_backups_count: 2
   max_backups_space: 50
   max_backups_time: 30
 profiles:
