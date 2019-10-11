@@ -1,0 +1,17 @@
+title: WebUXr
+default_lang: en
+author:
+  name: 'Ryan R. Smith'
+  email: webuxr@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Advocating for users for the greater good'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

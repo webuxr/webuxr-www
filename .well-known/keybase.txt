@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/webuxr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.webuxr.com
+  * I am webuxr (https://keybase.io/webuxr) on keybase.
+  * I have a public key ASA4T-oviLgq7aZz8aIlCYvgPOc0i5h6y_fZz6RuyVAk0wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205bd87da523a3e59acbe6d15aab84c2395c6a606196c6a37e16e86e698016deef0a",
+      "host": "keybase.io",
+      "kid": "0120384fea2f88b82aeda673f1a225098be03ce7348b987acbf7d9cfa46ec95024d30a",
+      "uid": "f67fd480f07632c303d139cfc5d6ff19",
+      "username": "webuxr"
+    },
+    "merkle_root": {
+      "ctime": 1538533563,
+      "hash": "1f7b496799aad7a231219b42a60edbb5762b50b0f788549dcad24b87739d27bf6a3230cddd68a23384f5a86ecf7bfa3fc7ac5a7965c13e040e550da00f092f07",
+      "hash_meta": "5df658101499c1497e1f23604cb97f5d58c8ff71c8215805e245e3c90e4f2015",
+      "seqno": 3733736
+    },
+    "service": {
+      "entropy": "pAVVmXyA269/igpUFq3cllyq",
+      "hostname": "www.webuxr.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1538533608,
+  "expire_in": 504576000,
+  "prev": "06abb6164eff0144cda5735272caf73c30e41d65074248bfe8dbb5863a6876d9",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOE/qL4i4Ku2mc/GiJQmL4DznNIuYesv32c+kbslQJNMKp3BheWxvYWTESpcCJcQgBqu2Fk7/AUTNpXNScsr3PDDkHWUHQki/6Nu1hjpodtnEIMbmuPKNizzBE4dB/4HcTSAZ3WInENCzqXv5DpR1AR9zAgHCo3NpZ8RAYZJUC113sKGjR0saa2fSoYanDLvhHziNMZHqsAmc79BONqdXWOwo4yZH7kB9bRCYGiNMflQ4rh8cEhHwZSW9BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDmNqhg4V2Y72HklyBMgulkCnyyb2rYVSdRMlmMjHzkuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/webuxr
+
+==================================================================
