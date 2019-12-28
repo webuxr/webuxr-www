@@ -6,8 +6,8 @@ taxonomy:
         - ux-ui
     tag:
         - test
-body_classes: 'header-animated header-dark'
-hero_classes: 'hero-large text-dark title-h1h2'
+body_classes: header-animated
+hero_classes: 'hero-large text-light overlay-dark'
 content:
     items:
         - '@self.children'
