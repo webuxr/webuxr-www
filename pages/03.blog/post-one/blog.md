@@ -1,6 +1,9 @@
 ---
 title: 'Post One'
 date: '2019-10-10 23:07'
+body_classes: header-dark
+hero_classes: parallax
+show_breadcrumbs: true
 content:
     items:
         - '@self.children'

@@ -1,5 +1,6 @@
 ---
 title: Blog
+published: true
 taxonomy:
     category:
         - webdev
@@ -7,7 +8,8 @@ taxonomy:
     tag:
         - test
 body_classes: header-animated
-hero_classes: 'hero-large text-light overlay-dark'
+hero_classes: 'hero-large text-light overlay-dark-gradient'
+hero_image: EAECD89C-AAD3-4735-8889-089CC9B04CC0.jpeg
 content:
     items:
         - '@self.children'
