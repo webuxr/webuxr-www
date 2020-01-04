@@ -1,13 +1,14 @@
 purge:
   trigger: number
-  max_backups_count: 2
+  max_backups_count: 4
   max_backups_space: 50
   max_backups_time: 30
 profiles:
   -
-    name: default-backup
-    root: /backup
-    exclude_paths: "/backup\r\n/cache\r\n/images\r\n/logs\r\n/tmp"
-    exclude_files: ".DS_Store\r\n.git\r\n.svn\r\n.hg\r\n.idea\r\n.vscode\r\nnode_modules\r\nThumbs.db\r\n.gitkeep"
+    name: webuxr_www
+    root: '/'
     schedule: true
     schedule_at: '0 5 * * 5'
+    exclude_paths: "/backup\r\n/cache\r\n/images\r\n/logs\r\n/node_modules\r\n/tmp"
+    exclude_files: ".DS_Store\r\n.git\r\n.svn\r\n.hg\r\n.idea\r\n.vscode\r\nThumbs.db\r\n.gitkeep"
+

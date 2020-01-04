@@ -1,11 +1,4 @@
 types:
-  defaults:
-    type: file
-    thumb: media/thumb.png
-    mime: application/octet-stream
-    image:
-      filters:
-        default: [enableProgressive]
   jpg:
     type: image
     thumb: media/thumb-jpg.png
@@ -187,6 +180,10 @@ types:
     thumb: media/thumb-json.png
     mime: application/json
   ico:
-    type: file
+    type: image
     thumb: favicon.ico
     mime: image/favicon
+  webp:
+    type: image
+    thumb: media/thumb-webp.png
+    mime: image/webp
