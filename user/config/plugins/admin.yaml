@@ -1,6 +1,6 @@
 enabled: true
 route: /admin
-cache_enabled: false
+cache_enabled: true
 theme: grav
 logo_text: WebUXr
 body_classes: webuxr
@@ -36,7 +36,7 @@ google_fonts: true
 admin_icons: line-awesome
 enable_auto_updates_check: true
 notifications:
-  feed: true
+  feed: false
   dashboard: true
   plugins: true
   themes: true

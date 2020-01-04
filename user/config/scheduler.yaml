@@ -1,4 +1,4 @@
 status:
   cache-purge: enabled
   cache-clear: enabled
-  default-backup: enabled
+  webuxr-www: enabled
